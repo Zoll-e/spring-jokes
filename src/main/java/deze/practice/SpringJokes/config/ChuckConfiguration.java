@@ -12,3 +12,4 @@ public class ChuckConfiguration {
         return new ChuckNorrisQuotes();
     }
 }
+d
