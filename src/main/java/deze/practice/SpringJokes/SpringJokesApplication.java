@@ -12,7 +12,6 @@ public class SpringJokesApplication {
 
 		ApplicationContext ctx = SpringApplication.run(SpringJokesApplication.class, args);
 
-		System.out.println("e");
 
 	}
 
