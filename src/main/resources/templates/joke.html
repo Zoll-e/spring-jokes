@@ -2,17 +2,29 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
 
    xmlns:th="http://www.thymeleaf.org">
-<link rel="stylesheet" type="text/css" href="jokes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
+
 
 <head>
     <meta charset="UTF-8">
     <title>Joke </title>
 </head>
 <body>
+<div class="ui inverted vertical masthead center aligned segment">
 
-<p class = "chars" th:text="${joke}">barmit beirok ide </p>
+    <div class="ui container">
+    
+    </div>
 
-<input type="button" value="Frissites" onClick="location.href=location.href">
+    <div class="ui text container">
+      <h1 class="ui inverted header" th:text="${joke}">
+        Imagine-a-Company
+      </h1>
+      <h2>Get a new one!</h2>
+      <div class="ui huge primary button" onClick="window.location.reload();"> Refresh <i class="right arrow icon"></i></div>
+    </div>
+
+  </div>
 
 
 </body>
